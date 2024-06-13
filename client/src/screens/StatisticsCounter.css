@@ -1,0 +1,27 @@
+.statistics-container {
+    display: flex;
+    justify-content: space-around; /* Evenly distribute space around items */
+    align-items: center;
+    background-color: black; /* Assuming a black background as in the image */
+    color: white; /* White text color */
+    padding: 50px 0; /* Padding for aesthetic spacing */
+    width: 100%; /* Full width */
+  }
+  
+  .statistic {
+    flex: 1; /* Allow each statistic to grow and take up equal space */
+    text-align: center; /* Center the text within each statistic */
+  }
+  
+  .statistic h5 {
+    font-size: 4em; /* Large font size for impact */
+    font-style: "Libre Baskerville", serif;
+    margin: 0; /* Remove default margins */
+  }
+  
+  .statistic p {
+    font-size: 1.5em; /* Smaller font size for descriptions */
+    font-style: "Libre Baskerville", serif;
+    margin: 0; /* Remove default margins */
+  }
+  

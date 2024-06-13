@@ -1,0 +1,138 @@
+/* QuestionPageDesktop.css */
+
+/* Container */
+.question-page-desktop-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden; /* Ensure no overflow for the main container */
+}
+
+/* Content */
+.desktop-question-content {
+  flex-grow: 1;
+  margin-right: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-y: auto; /* Ensure content scrolls if needed */
+  width: 75%; /* Adjust as needed */
+}
+
+.desktop-question-header {
+  text-align: left;
+}
+
+.desktop-voice-button {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.desktop-question-text {
+  text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.desktop-question-text-bold {
+  text-align: left;
+  font-weight: bold;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.desktop-question-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.desktop-options-form {
+  text-align: left;
+}
+
+.desktop-option-item {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.desktop-option-item .form-check-input {
+  vertical-align: middle;
+  margin-right: 5px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.desktop-answer-explanation-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.desktop-explanation-text-container {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.desktop-answer-image-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.desktop-answer-image {
+  width: 100%;
+  max-width: 50%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.desktop-explanation-text {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+/* Navigation Box */
+.desktop-navigation-box {
+  width: 25%; /* Adjust as needed */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+  overflow-y: auto; /* Ensure navigation box scrolls if needed */
+}
+
+.desktop-navigation-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  gap: 20px;
+}
+
+.desktop-navigation-button {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 20%;
+  text-align: center;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: black;
+  background-color: white;
+}
+
+.desktop-navigation-button.active {
+  background-color: green;
+  color: white;
+}

@@ -1,0 +1,73 @@
+.bubbles-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    padding: 0px; /* Add padding to prevent overlap */
+  }
+  
+  .bubble {
+    position: relative;
+    width: 30%;
+    min-height: 350px; /* Adjust height to ensure bubbles are large enough for content */
+    min-width: 350px; /* Set a minimum width to prevent text overflow */
+    max-width: 350px; /* Ensure all bubbles are of equal size */
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-family: '"Libre Baskerville", serif';
+    opacity: 0;
+    transform: scale(0);
+    transition: transform 2s ease-out, opacity 2s ease-out;
+    word-wrap: break-word; /* Allow long words to wrap */
+    overflow: hidden; /* Prevent text from overflowing */
+  }
+  
+  .bubble h2 {
+    color: black; /* Black color for the headings */
+    font-weight: bold; /* Bold font weight for headings */
+    margin-bottom: 10px; /* Adjust margin */
+  }
+  
+  .bubble p {
+    margin: 10px; /* Reset margin for paragraphs */
+  }
+  
+  /* Specific positioning to overlap */
+  .bubble-1 {
+    transform: translateY(-50%) translateX(-50%);
+  }
+  
+  .bubble-2 {
+    transform: translateY(-50%);
+  }
+  
+  .bubble-3 {
+    transform: translateY(-50%) translateX(-50%);
+  }
+  
+  .bubble.animate {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  @keyframes slideInFromTop {
+    from {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

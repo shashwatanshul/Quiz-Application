@@ -1,0 +1,36 @@
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #808080; /* Set background to grey */
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .about-us, .social-media {
+    flex: 1;
+  }
+  
+  .about-us h2, .social-media h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 0; /* Reduce any default padding */
+  }
+  
+  .icons a {
+    color: white;
+    font-size: 1.5em;
+    padding: 0 10px; /* Reduce space between icons */
+    transition: color 0.3s;
+  }
+  
+  .fab:hover {
+    color: #ccc; /* Lighten color on hover */
+  }
+  

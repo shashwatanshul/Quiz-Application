@@ -1,0 +1,76 @@
+.learning-outcomes {
+    text-align: center;
+    margin: 50px 0;
+    padding: 20px;
+  }
+  
+  .learning-outcomes h1 {
+    margin-bottom: 20px;
+  }
+  
+  .outcomes-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .outcome {
+    margin: 20px;
+  }
+  
+  .outcome h2 {
+    margin-bottom: 10px;
+  }
+  
+  .squares {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .squares span {
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    display: inline-block;
+  }
+  
+  .learning-outcomes h1, .learning-outcomes p, .learning-outcomes img {
+    opacity: 0; /* Start elements as invisible */
+    transition: opacity 3s ease-out, transform 3s ease-out;
+  }
+  
+  /* Fade-in from bottom animation for the header */
+  .learning-outcomes h1.animate {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
+  
+  /* Slide in from left animation for the paragraph */
+  .learning-outcomes p {
+  text-align: center; /* Center-align text */
+  margin: auto; /* Center-align block if needed */
+  width: 90%; /* Optionally limit width for better readability */
+  opacity: 0; /* Start element as invisible */
+  transition: opacity 3s ease-out, transform 3s ease-out;
+}
+
+/* Animation for paragraph */
+.learning-outcomes p.animate {
+  opacity: 1;
+  transform: translateX(0); /* Adjust if there was an initial translation */
+}
+
+  
+  /* Scale up animation for the image */
+  .learning-outcomes img.animate {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  
+  .learning-outcomes img {
+    width: 100%;  /* Ensure image uses the full container width */
+    transition: transform 3s ease-out;
+    transform-origin: center;  /* Ensure scaling happens centrally */
+    display: block; /* Removes any extra space below the image */
+    opacity: 0;  /* Start elements as invisible */
+  }

@@ -1,0 +1,134 @@
+[
+    {
+        "name": "ABCD",
+        "dificulty": "Primary Wing",
+        "class":"8",
+        "subject":"English Grammer",
+        "questions":[
+                      {
+                        "id": 1,
+                        "question": "Which of the following is a coordinating conjunction?",
+                        "options": [
+                                      "because",
+                                      "although",
+                                      "but",
+                                      "since"
+                                    ]
+                      },
+                      {
+                        "id": 2,
+                        "question": "Which sentence is written in the passive voice?",
+                        "options": [
+                                      "The cat chased the mouse.",
+                                      "The mouse was chased by the cat.",
+                                      "I will finish the work tomorrow.",
+                                      "She is baking a cake."
+                                    ]
+                      },
+                      {
+                        "id": 3,
+                        "question": "What is the comparative form of the adjective "good"?",
+                        "options": [
+                                      "better",
+                                      "gooder",
+                                      "goodest",
+                                      "best"
+                                    ]
+                      },
+                      {
+                        "id": 4,
+                        "question": "Which of the following is a preposition of time?",
+                        "options": [
+                                      "under",
+                                      "for",
+                                      "during",
+                                      "to"
+                                    ]
+                      },
+                      {
+                        "id": 5,
+                        "question": "What part of speech is the word "quickly" in the sentence: "She ran quickly to catch the bus"?",
+                        "options": [
+                                      "verb",
+                                      "adjective",
+                                      "adverb",
+                                      "noun"
+                                    ]
+                      },
+                    ],
+          "answers":[
+                      2,
+                      1,
+                      0,
+                      2,
+                      2
+                    ],
+    },
+
+    {
+        "name": "WXYZ",
+        "dificulty": "Secondary Wing",
+        "class":"8",
+        "subject":"English Grammer",
+        "questions":[
+                      {
+                        "id": 1,
+                        "question": "Which of the following is a coordinating conjunction?",
+                        "options": [
+                                      "because",
+                                      "although",
+                                      "but",
+                                      "since"
+                                    ]
+                      },
+                      {
+                        "id": 2,
+                        "question": "Which sentence is written in the passive voice?",
+                        "options": [
+                                      "The cat chased the mouse.",
+                                      "The mouse was chased by the cat.",
+                                      "I will finish the work tomorrow.",
+                                      "She is baking a cake."
+                                    ]
+                      },
+                      {
+                        "id": 3,
+                        "question": "What is the comparative form of the adjective "good"?",
+                        "options": [
+                                      "better",
+                                      "gooder",
+                                      "goodest",
+                                      "best"
+                                    ]
+                      },
+                      {
+                        "id": 4,
+                        "question": "Which of the following is a preposition of time?",
+                        "options": [
+                                      "under",
+                                      "for",
+                                      "during",
+                                      "to"
+                                    ]
+                      },
+                      {
+                        "id": 5,
+                        "question": "What part of speech is the word "quickly" in the sentence: "She ran quickly to catch the bus"?",
+                        "options": [
+                                      "verb",
+                                      "adjective",
+                                      "adverb",
+                                      "noun"
+                                    ]
+                      },
+                    ],
+          "answers":[
+                      2,
+                      1,
+                      0,
+                      2,
+                      2
+                    ],
+    },
+    
+]
